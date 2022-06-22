@@ -9,5 +9,6 @@ In this regression model, the vehicle length and ground clearance had a signific
 ## Summary Statistics on Suspension Coils
 
 ![PSI_SUM](https://github.com/Mots94/MechaCar_Analysis/blob/main/Images/Total_PSI_Summary.PNG) 
+
 ![PSI_SUM_LOTS](https://github.com/Mots94/MechaCar_Analysis/blob/main/Images/PSI_Lot_Summary.PNG)
 
