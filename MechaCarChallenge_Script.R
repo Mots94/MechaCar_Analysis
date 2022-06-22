@@ -24,8 +24,14 @@ lot_summary <- sus_coils %>%
 
 t.test(sus_coils$PSI, mu=1500)
 
-t.test(subset(sus_coils$PSI, Manufacturing_Lot == 'Lot1'), mu=1500)
+lot1_data <- subset(sus_coils, Manufacturing_Lot=='Lot1')
 
-t.test(subset(sus_coils$PSI, Manufacturing_Lot == 'Lot2'), mu=1500)
+t.test(lot1_data$PSI, mu=1500)
 
-t.test(subset(sus_coils$PSI, Manufacturing_Lot == 'Lot3'), mu=1500)
+lot2_data <- subset(sus_coils, Manufacturing_Lot=='Lot2')
+
+t.test(lot2_data$PSI, mu=1500)
+
+lot3_data <- subset(sus_coils, Manufacturing_Lot=='Lot3')
+
+t.test(lot3_data$PSI, mu=1500)
