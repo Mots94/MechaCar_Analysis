@@ -12,3 +12,4 @@ In this regression model, the vehicle length and ground clearance had a signific
 
 ![PSI_SUM_LOTS](https://github.com/Mots94/MechaCar_Analysis/blob/main/Images/PSI_Lot_Summary.PNG)
 
+According to the total summary of suspension coils, the PSI variance for all three lots of coils is 62.294 PSI.  Though this is below the max variance of 100 PSI, it does seem rather high considering the fact that these coils should be manufactured within tight tolerances to properly support a suspension system.  Observing the grouped dataframe confirms the suspicion that one or more of the lots had a variance over 100 PSI.  Lot three had a variance of 170.286.  Additionally, compared to the other two distributions for lot PSI, lot three's distribution would most likely have a slight negative skew.  The mean is slightly lower than the median for lot three, meaning there are most likely some extreme low values skewing the distribution.
